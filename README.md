@@ -13,6 +13,7 @@ brew tap hamedmp/tap
 | Formula | Description |
 |---------|-------------|
 | [idag](https://github.com/HamedMP/idag) | Modern CLI to query macOS Calendar from the terminal |
+| [macos-tools](https://github.com/HamedMP/macos-tools) | CLI tools for macOS - reminders, notes, contacts, music, focus |
 
 ## Usage
 
