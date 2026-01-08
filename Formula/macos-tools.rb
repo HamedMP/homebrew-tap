@@ -1,8 +1,8 @@
 class MacosTools < Formula
   desc "Fast CLI tools for macOS Calendar, Notes, Messages, Mail, Canvas, and more"
   homepage "https://github.com/HamedMP/macos-tools"
-  url "https://github.com/HamedMP/macos-tools/archive/refs/tags/v1.4.0.tar.gz"
-  sha256 "52e1732cb7f037d9a0890323f16cd7bcbb3775314ceeef022fd65a7e6435e771"
+  url "https://github.com/HamedMP/macos-tools/archive/refs/tags/v1.4.1.tar.gz"
+  sha256 "06a556b9196ef273ae4756df97180727a0ef6e06ed51a153781b8d4a831ccd4c"
   license "MIT"
 
   depends_on xcode: ["14.0", :build]
