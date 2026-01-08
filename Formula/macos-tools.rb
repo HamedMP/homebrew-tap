@@ -1,8 +1,8 @@
 class MacosTools < Formula
   desc "Fast CLI tools for macOS Notes, Messages, Mail, and more"
   homepage "https://github.com/HamedMP/macos-tools"
-  url "https://github.com/HamedMP/macos-tools/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "d6ace8612c0719dddef162e41614e941046fdae1a18dcb238bfd6ad005ca4ae7"
+  url "https://github.com/HamedMP/macos-tools/archive/refs/tags/v1.2.0.tar.gz"
+  sha256 "62af44a3bc02ddb2af3b60e35f0afda3adfe6b9a212cce97816fb7e6edfd197a"
   license "MIT"
 
   depends_on xcode: ["14.0", :build]
@@ -16,7 +16,6 @@ class MacosTools < Formula
     bin.install ".build/release/mac-contacts"
     bin.install ".build/release/mac-focus"
     bin.install ".build/release/mac-music"
-    bin.install ".build/release/mac-reminders"
   end
 
   def caveats
