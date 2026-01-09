@@ -1,10 +1,10 @@
 class MacosTools < Formula
   desc "Fast CLI tools for macOS Calendar, Notes, Messages, Mail, Canvas, and more"
   homepage "https://github.com/HamedMP/macos-tools"
-  url "https://github.com/HamedMP/macos-tools/releases/download/v1.4.1/macos-tools-1.4.1-arm64.zip"
+  url "https://github.com/HamedMP/macos-tools/releases/download/v1.4.2/macos-tools-1.4.2-arm64.zip"
   sha256 "bd4f9f1baa825588feff6cd961ade118e28a6908037dceac27ea90158f2bc571"
   license "MIT"
-  version "1.4.1"
+  version "1.4.2"
 
   depends_on :macos
   depends_on arch: :arm64
