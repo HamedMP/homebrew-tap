@@ -1,23 +1,23 @@
 class MacosTools < Formula
   desc "Fast CLI tools for macOS Calendar, Notes, Messages, Mail, Canvas, and more"
   homepage "https://github.com/HamedMP/macos-tools"
-  url "https://github.com/HamedMP/macos-tools/archive/refs/tags/v1.4.1.tar.gz"
-  sha256 "06a556b9196ef273ae4756df97180727a0ef6e06ed51a153781b8d4a831ccd4c"
+  url "https://github.com/HamedMP/macos-tools/releases/download/v1.4.1/macos-tools-1.4.1-arm64.zip"
+  sha256 "bd4f9f1baa825588feff6cd961ade118e28a6908037dceac27ea90158f2bc571"
   license "MIT"
+  version "1.4.1"
 
-  depends_on xcode: ["14.0", :build]
   depends_on :macos
+  depends_on arch: :arm64
 
   def install
-    system "swift", "build", "-c", "release", "--disable-sandbox"
-    bin.install ".build/release/mac-calendar"
-    bin.install ".build/release/mac-notes"
-    bin.install ".build/release/mac-messages"
-    bin.install ".build/release/mac-mail"
-    bin.install ".build/release/mac-contacts"
-    bin.install ".build/release/mac-focus"
-    bin.install ".build/release/mac-music"
-    bin.install ".build/release/mac-canvas"
+    bin.install "mac-calendar"
+    bin.install "mac-notes"
+    bin.install "mac-messages"
+    bin.install "mac-mail"
+    bin.install "mac-contacts"
+    bin.install "mac-focus"
+    bin.install "mac-music"
+    bin.install "mac-canvas"
   end
 
   def caveats
